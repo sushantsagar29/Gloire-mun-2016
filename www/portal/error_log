@@ -1,0 +1,12 @@
+[19-Feb-2016 01:02:37 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home2/livco524/public_html/gloiremun.in/formdata/connect.php:8
+Stack trace:
+#0 /home2/livco524/public_html/gloiremun.in/formdata/connect.php(8): PDO->__construct('mysql:host=loca...', 'root', 'yvdh5#h$m')
+#1 /home2/livco524/public_html/gloiremun.in/formdata/delegate-table.php(42): require_once('/home2/livco524...')
+#2 {main}
+  thrown in /home2/livco524/public_html/gloiremun.in/formdata/connect.php on line 8
+[27-Feb-2016 17:33:06 Asia/Calcutta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08004] [1040] Too many connections' in /home2/livco524/public_html/gloiremun.in/formdata/connect.php:8
+Stack trace:
+#0 /home2/livco524/public_html/gloiremun.in/formdata/connect.php(8): PDO->__construct('mysql:host=loca...', 'livco524', 'bhutan10')
+#1 /home2/livco524/public_html/gloiremun.in/formdata/ip-table.php(41): require_once('/home2/livco524...')
+#2 {main}
+  thrown in /home2/livco524/public_html/gloiremun.in/formdata/connect.php on line 8
